@@ -29,7 +29,7 @@
       * @throws NumberFormatException if error occurs.
       */
      public static void main(final String[] args) {
-         GlassHalves hourGlass = new GlassHalves();
+         GlassHalves hourGlass = new Stars();
          final Scanner userInput = new Scanner(System.in);
          System.out.print("\nInput size of hourglass: ");
          final String usrInput = userInput.nextLine();
